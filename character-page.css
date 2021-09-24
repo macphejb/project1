@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  background-image: url("/images/Idrium.jpg");
+  background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);
+  margin: 0
+  
+}
+
+main {
+  width: 50%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  border-top-style: none;
+  border-bottom-style: none;
+  background-color: white;
+}
+
+h1{
+  font-size: 2.5em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin:0 auto;
+}
+
+p{
+  margin: 5vh;
+}
+
+.tagline{
+  text-align: center;
+  font-style: italic;
+}
+
+.bio {
+  font-size: 0.8em;
+}
+
+.quote{
+  font-style: italic;
+  text-align: center;
+  color:lightslategrey;
+}
+
+.info{
+  display:flex;
+  font-size: 0.7em;
+  background-color: rgb(234, 255, 228);
+  align-items: center;
+  justify-content: center;
+}
