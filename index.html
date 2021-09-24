@@ -5,20 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1 Home</title> 
+    <title>Project 1 Home</title>
 </head>
 
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@700&display=swap');
     body {
-        font-family: 'Helvetica', sans-serif;
-        background-color:rgb(255, 149, 149);
-        margin: 3em;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+        background: rgb(239,251,255);
+        background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);
+        margin: 0
+    }
+
+    main {
+        width: 50%;
+        min-height: 100vh;
+        margin: 0 auto;
+        padding: 5px;
+        box-sizing: border-box;
+        border-color: black;
+        border-width: 3px;
+        border-style: solid;
+        border-top-style: none;
+        border-bottom-style: none;
+        background-color: white;
     }
 
     h1{
-        text-decoration-line: underline;
-        text-decoration-line: white;
-        text-decoration-style: solid;
+        font-size: 2.5em;
+        font-family: 'Tangerine', cursive;
+        
+    }
+
+    h1,h2,p {
+        text-align: center;
     }
 
     li{
@@ -30,15 +51,58 @@
         font-size: 2em;
     }
 
+    p{
+        font-size: 1em;
+        margin: 10vh;
+    }
+
+    .keyword {
+        font-weight: bold;
+    }
+
+    .gallery{
+        text-align: center;
+        padding: 2vh;
+    }
+
+    img{
+        transition: .3s ease;
+    }
+
+    img:hover {
+        opacity: 0.5;
+    }
+
+    text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+    }
+
 </style>
 
 <body>
-    <h1>Project Test</h1>
-    <ul>
-        <li><a href="http://blog.twenty7.me/blog1.html" target="_blank">Week #1</a></li>
-        <li><a href="http://blog.twenty7.me/blog2.html" target="_blank">Week #2</a></li>
-        <li class = "current"><a href="http://blog.twenty7.me/blog3.html" target="_blank">Week #3</a></li>
-    </ul>
+    <main>
+    <h1>The Mystery of the Red Flower</h1>
+    <p>
+        In the world of <span class="keyword">Idrium</span>, evil goes unchecked save for the brave men and women aligned with the <span class="keyword">Bracers</span>. These 
+        heroic souls can be found all across the continent, but one particular division has more on their plate than most. 
+        Known to some as the <span class="keyword">"Oddjobs"</span>, our heroes are working to undermine the plots of a criminal organization calling 
+        themselves the <span class="keyword">Garden</span>. 
+    </p>
 
+    <h2>Meet the Heroes:</h2>
+
+    <div class="gallery">
+        <img src="/images/miya.png" alt = "Miya Areno">
+        <img src="/images/doc_token.png" alt = "Doc Swatcher">
+        <img src="/images/jared.png" alt = "Jared Lacey">
+        <img src="/images/dudo.png" alt = "Dudo Perudo">
+        <img src="/images/olek.png" alt = "Olek">
+        <img src="/images/crow.png" alt = "Crow Revache">
+    </div>
+
+    </main>
 </body>
 </html>
