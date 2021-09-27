@@ -13,8 +13,9 @@
     body {
         font-family: 'Raleway', sans-serif;
         font-size: 2em;
-        background-image: url("/images/Idrium.jpg");
-        background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);
+        /*background-image: url("/images/Idrium.jpg");*/
+        /*background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);*/
+        background-color: #242527;
         margin: 0
         
     }
@@ -37,6 +38,7 @@
         font-size: 2.5em;
         font-family: 'Tangerine', cursive;
         font-weight: bold;
+        padding: 0.5em;
     }
 
     h1,h2,p {
@@ -74,6 +76,18 @@
         opacity: 0.5;
     }
 
+    .bracer:hover {
+        opacity: 1;
+    }
+
+    .bracer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin:0 auto;
+    }
+
     text{
         position: absolute;
         top: 50%;
@@ -86,6 +100,7 @@
 <body>
     <main>
     <h1>The Mystery of the Red Flower</h1>
+    <img class="bracer" src="/images/bracer.png" alt = "Bracer Emblem">
     <p>
         In the world of <span class="keyword">Idrium</span>, evil goes unchecked save for the brave men and women aligned with the <span class="keyword">Bracers</span>. These 
         heroic souls can be found all across the continent, but one particular division has more on their plate than most. 

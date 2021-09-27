@@ -3,8 +3,8 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 2em;
-  background-image: url("/images/Idrium.jpg");
-  background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);
+  /*background-image: url("/images/Idrium.jpg");
+  background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);*/
   margin: 0
   
 }
@@ -62,5 +62,37 @@ p{
   font-size: 0.7em;
   background-color: rgb(234, 255, 228);
   align-items: center;
-  justify-content: center;
+  justify-content: stretch;
+}
+
+.stats{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.circle{
+  width: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1em;
+  border: 3px solid #000;
+}
+
+ul li {
+  display: flex;
+  border-bottom:1px solid black;
+  list-style-type: none;
+  padding: 0.5em;
+  justify-content: space-between;
+  width: 20em; /*Needs fixing*/
+}
+
+.statvalhigh {
+  color:green;
+}
+
+.statvallow {
+  color: red;
 }
