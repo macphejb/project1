@@ -3,10 +3,10 @@
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 2em;
-  /*background-image: url("/images/Idrium.jpg");
-  background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);*/
+  /*background-image: url("/images/Idrium.jpg");*/
+  /*background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);*/
+  background-color: #242527;
   margin: 0
-  
 }
 
 main {
@@ -25,85 +25,55 @@ main {
 
 h1{
   font-size: 2.5em;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Tangerine', cursive;
   font-weight: bold;
-  text-align: center;
+  padding: 0.5em;
 }
 
-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-  margin:0 auto;
+h1,h2,p {
+  text-align: center;
 }
 
 p{
-  margin: 5vh;
-}
-
-.tagline{
-  text-align: center;
-  font-style: italic;
-}
-
-.bio {
-  font-size: 0.8em;
-}
-
-.quote{
-  font-style: italic;
-  text-align: center;
-  color:lightslategrey;
-}
-
-.info{
-  display:flex;
-  font-size: 0.7em;
-  background-color: rgb(234, 255, 228);
-  align-items: center;
-  justify-content: stretch;
-}
-
-.stats{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.circle{
-  width: 2em;
-  line-height: 2em;
-  border-radius: 50%;
-  text-align: center;
   font-size: 1em;
-  border: 3px solid #000;
+  margin: 10vh;
 }
 
-.statlist {
+.keyword {
+  font-weight: bold;
+}
+
+.gallery{
+  text-align: center;
+  padding: 2vh;
+}
+
+img{
+  transition: .3s ease;
+}
+
+img:hover {
+  opacity: 0.5;
+}
+
+.bracer:hover {
+    opacity: 1;
+}
+
+.bracer{
   display: flex;
-  flex-direction: column;
-  list-style-type: none;
-  width: 20em; 
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin:0 auto;
 }
 
-.statlist-item {
-  display: flex;
-  flex-direction: row;
-  border-bottom:1px solid black;
-  padding: 0.5em;
-  justify-content: space-between;
-  
+text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
 }
-
-.statvalhigh {
-  color:green;
-}
-
-.statvallow {
-  color: red;
-}
-
 
 /* Nav Bar*/
 nav {
