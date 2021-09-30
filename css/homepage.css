@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Tangerine:wght@400&display=swap');
 
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 2em;
-  /*background-image: url("/images/Idrium.jpg");*/
-  /*background: linear-gradient(0deg, rgba(239,251,255,1) 0%, rgba(85,208,255,1) 100%);*/
-  background-color: #242527;
+  background: rgb(36,37,39);
+  background: linear-gradient(180deg, rgba(36,37,39,1) 0%, rgba(188,15,15,1) 100%);
   margin: 0
 }
 
@@ -24,9 +23,9 @@ main {
 }
 
 h1{
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: 'Tangerine', cursive;
-  font-weight: bold;
+  font-weight: 550;
   padding: 0.5em;
 }
 
@@ -66,6 +65,11 @@ img:hover {
   align-items: center;
   width: 50%;
   margin:0 auto;
+  transition: transform .7s ease-in-out;
+}
+
+.bracer:hover{
+  transform: rotate(360deg);
 }
 
 text{
@@ -80,7 +84,6 @@ nav {
   background-color: #242527;
   color: white;
   font-size: 1em;
-  font-family: sans-serif;   
 }
 
 .menus {
@@ -137,4 +140,36 @@ nav {
   text-decoration: none;
   color: white;
   display: block;
+}
+
+@media (max-width: 800px) {
+  main {
+    width: 100%;
+    font-size: 0.6em;
+  }
+  p {
+    margin: 2vh;
+  }
+  nav {
+    font-size: 1.5em;
+  }
+  .menu-item {
+    font-size: 1em;
+  }
+}
+
+@media (max-device-width: 800px) {
+  main {
+    width: 100%;
+    font-size: 0.6em;
+  }
+  p {
+    margin: 2vh;
+  }
+  nav {
+    font-size: 1.5em;
+  }
+  .menu-item {
+    font-size: 1em;
+  }
 }
