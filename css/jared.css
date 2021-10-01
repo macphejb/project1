@@ -1,0 +1,7 @@
+body {
+  background: linear-gradient(180deg, rgba(68,79,230,1) 0%, rgba(242,238,255,1) 100%);
+}
+img{
+  width: 50%;
+  padding: 1em;
+}

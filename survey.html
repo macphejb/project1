@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 1 Home</title>
-    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/survey.css">
     <link rel="shortcut icon" type="image/png" href="images/rose.png"/>
 </head>
 <body>
@@ -39,9 +40,9 @@
         Want to join us in our quest against the Garden? Fill out some information about you and your character:
     </p>
 
-    <div><label>Your Name: <input type="text" placeholder="John Doe"></label></div>
-    <div><label>Character's Name: <input type="text" placeholder="Bilbo Baggins"></label></div>
-    <div>
+    <div class = "text-input"><label>Your Name: <input type="text" placeholder="John Doe"></label></div>
+    <div class = "text-input"><label>Character's Name: <input type="text" placeholder="Bilbo Baggins"></label></div>
+    <div class = "selector">
       Preferred Class:
       <select>
         <option>Select Class</option>
@@ -60,7 +61,7 @@
         <option>Other</option>
       </select>
     </div>
-    <div>
+    <div class = "selector">
       Preferred Race:
       <select>
         <option>Select Race</option>
@@ -76,12 +77,12 @@
         <option>Other</option>
       </select>
     </div>
-    <div><label for="background">Brief character background:</label></div>
-    <div><textarea id="background" placeholder="Found a cool-looking ring..."></textarea></div>
-    <div>Roll20 Account Email: <input type="email"></div>
-    <div>Cell Number: <input type="tel"></div>
+    <div class = "text-input"><label for="background">Brief character background:</label>
+    <textarea id="background" placeholder="Found a cool-looking ring..."></textarea></div>
+    <div class = "text-input">Roll20 Account Email: <input type="email" placeholder="sample@email.com"></div>
+    <div class = "text-input">Cell Number: <input type="tel" placeholder="555-555-5555"></div>
     <button type="button">Submit</button>
-    <p>Don't have a Roll20 account? <a href="https://app.roll20.net/account/create/" target="_blank">Make one here</a>.</p>
+    <p id="link">Don't have a Roll20 account? <a href="https://app.roll20.net/account/create/" target="_blank">Make one here</a>.</p>
 
     </main>
 </body>

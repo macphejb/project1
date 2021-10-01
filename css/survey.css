@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(180deg, rgba(36,37,39,1) 0%, rgba(188,15,15,1) 100%);
+}
+
+h1 {
+  text-align: center;
+}
+
+p, .text-input, .selector{
+  margin: 30px;
+}
+
+#link {
+  margin-bottom: 0px;
+  margin-top: 2em;
+  transform: translateY(-1em);
+}
+
+button {
+  background-color: #242527;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 30px;
+}
+
+textarea{
+  width: 80%;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea, select, option {
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif; 
+}
+
+#report-list {
+  margin: 1em;
+}
+
+.report-item{
+  margin: 1em 0;
+}
+
