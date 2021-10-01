@@ -6,7 +6,7 @@ h1,h2,p {
   text-align: center;
 }
 
-figcaption{
+#caption{
   text-align: center;
   font-size: 0.9em;
   margin: 1em;
