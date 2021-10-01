@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Home</title>
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="shortcut icon" type="image/png" href="images/rose.png"/>
+</head>
+<body>
+    <main>
+    <nav>
+        <ul class = "menus">
+            <li class = "menu">
+                <div class="menu-heading">Home</div>
+            </li>
+            <li class = "menu">
+                <div class="menu-heading">Characters</div>
+                <ul class="menu-items">
+                    <li class="menu-item"><a href="http://project1.twenty7.me/miya.html">Miya&emsp;&emsp;&nbsp;&nbsp;</a></li>
+                    <li class="menu-item"><a href="http://project1.twenty7.me/doc.html">Doc</a></li>
+                    <li class="menu-item"><a href="http://project1.twenty7.me/jared.html">Jared</a></li>
+                    <li class="menu-item"><a href="http://project1.twenty7.me/dudo.html">Dudo</a></li>
+                    <li class="menu-item"><a href="http://project1.twenty7.me/olek.html">Olek</a></li>
+                    <li class="menu-item"><a href="http://project1.twenty7.me/crow.html">Crow</a></li>
+                  </ul>
+            </li>
+            <li class = "menu">
+              <div class="menu-heading"><a href="http://project1.twenty7.me/survey.html">Apply</a></div>
+            </li>
+        </ul>
+    </nav>
+
+    <h1>Application</h1>
+    <img class="bracer" src="/images/bracer.png" alt = "Bracer Emblem">
+    <p>
+        Want to join us in our quest against the Garden? Fill out some information about you and your character:
+    </p>
+
+    <div><label>Your Name: <input type="text" placeholder="John Doe"></label></div>
+    <div><label>Character's Name: <input type="text" placeholder="Bilbo Baggins"></label></div>
+    <div>
+      Preferred Class:
+      <select>
+        <option>Select Class</option>
+        <option>Barbarian</option>
+        <option>Bard</option>
+        <option>Cleric</option>
+        <option>Druid</option>
+        <option>Fighter</option>
+        <option>Monk</option>
+        <option>Paladin</option>
+        <option>Ranger</option>
+        <option>Rogue</option>
+        <option>Sorcerer</option>
+        <option>Warlock</option>
+        <option>Wizard</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div>
+      Preferred Race:
+      <select>
+        <option>Select Race</option>
+        <option>Dragonborn</option>
+        <option>Dwarf</option>
+        <option>Elf</option>
+        <option>Gnome</option>
+        <option>Half-Elf</option>
+        <option>Halfling</option>
+        <option>Half-Orc</option>
+        <option>Human</option>
+        <option>Tiefling</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div><label for="background">Brief character background:</label></div>
+    <div><textarea id="background" placeholder="Found a cool-looking ring..."></textarea></div>
+    <div>Roll20 Account Email: <input type="email"></div>
+    <div>Cell Number: <input type="tel"></div>
+    <button type="button">Submit</button>
+    <p>Don't have a Roll20 account? <a href="https://app.roll20.net/account/create/" target="_blank">Make one here</a>.</p>
+
+    </main>
+</body>
+</html>
