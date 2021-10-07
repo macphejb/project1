@@ -1,5 +1,5 @@
 body{
-  background: linear-gradient(180deg, rgba(8,21,52,1) 0%, rgba(238,243,255,1) 100%);
+  background-color: rgb(255, 195, 195);
 }
 .info{
   font-size: 0.63em;

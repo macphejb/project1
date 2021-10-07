@@ -1,9 +1,10 @@
-body {
-  background: linear-gradient(180deg, rgba(36,37,39,1) 0%, rgba(188,15,15,1) 100%);
-}
-
 h1 {
   text-align: center;
+}
+
+.bracer{
+  width: 30%;
+  margin-bottom: 1.5em;
 }
 
 p, .text-input, .selector{
