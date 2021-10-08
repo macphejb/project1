@@ -88,19 +88,3 @@ hr{
     margin: 2vh;
   }
 }
-
-/*
-@media (max-device-width: 800px) {
-  main {
-    font-size: 0.7em;
-  }
-  p {
-    margin: 2vh;
-  }
-  .bio{
-    font-size: 0.9em;
-  }
-  nav {
-    font-size: 1.2em;
-  }
-}*/
